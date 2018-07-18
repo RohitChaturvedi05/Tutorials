@@ -1,0 +1,14 @@
+{
+  "name": "5-node-intro-m5-web-exercise-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "socket.io": "^2.1.1"
+  }
+}
