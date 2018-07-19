@@ -1,0 +1,13 @@
+{
+  "name": "node-api",
+  "main": "server.js",
+  "start": "node server.js",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "compression": "^1.6.2",
+    "express": "~4.0.0",
+    "jsonfile": "^2.4.0",
+    "method-override": "^2.3.7",
+    "mongoose": "~3.6.13"
+  }
+}

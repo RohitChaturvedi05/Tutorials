@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<style>
+    body {
+        background: skyblue;
+        font-family: Verdana;
+        color: white;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+
+    <h1>Contact</h1>
+    <p>Here you go !</p>
+
+    <% if (data) { %>
+        <h2>
+            <%= data.name %>
+        </h2>
+        <h2>
+            <%= data.age %>
+        </h2>
+        <% } %>
+</body>
+
+</html>
