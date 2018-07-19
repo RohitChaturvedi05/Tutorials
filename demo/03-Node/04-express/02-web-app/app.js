@@ -17,9 +17,12 @@ app.get('/contact', function (req, res) {
     res.sendFile(__dirname + "/contact.html");
 })
 
+
+//Note- For Passing the data into template
+//use Data prop
 app.get('/details/', function (req, res) {
     var data = { name: 'rohit', age: 28 }
-    res.render('contactdetails.ejs', data);
+    res.render('details', { data: data });
 })
 
 app.listen(port);
